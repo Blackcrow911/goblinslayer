@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1366686060 source:c:\users\kevin\desktop\goblinbackup\player.cpp
+	"player.h"
+
+1366685194 c:\users\kevin\desktop\goblinbackup\player.h
+	<string>
+
+1367282484 source:c:\users\kevin\desktop\goblinbackup\main.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	"player.h"
+	"include/enemy.h"
+	"include/combat_manager.h"
+
+1367282356 source:c:\users\kevin\desktop\goblinbackup\src\enemy.cpp
+	"../include/enemy.h"
+
+1367282363 c:\users\kevin\desktop\goblinbackup\include\enemy.h
+	<string>
+	<cstdlib>
+	<iostream>
+
+1367278749 source:c:\users\kevin\desktop\goblinbackup\src\enemies.cpp
+	"../include/enemies.h"
+
+1367278772 c:\users\kevin\desktop\goblinbackup\include\enemies.h
+	<vector>
+	"enemy.h"
+
+1367282381 source:c:\users\kevin\desktop\goblinbackup\src\combat_manager.cpp
+	"../include/combat_manager.h"
+
+1367281571 c:\users\kevin\desktop\goblinbackup\include\combat_manager.h
+	"../player.h"
+	"enemy.h"
+	<iostream>
+	<cstdlib>
+
